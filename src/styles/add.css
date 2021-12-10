@@ -1,0 +1,46 @@
+.input-addLiteratures{    
+    width: 1180px;
+    height: 50px;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    color:white;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.input-addLiteratures-files{
+    width: 190px;
+    height: 50px;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 0px;
+}
+.flex-end-add{
+    display: flex;
+    justify-content: flex-end;
+    width: 1170px;
+}
+.button-addLiteratures{
+    width: 190px;
+    height: 50px;
+    background: #EE4622;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+.fill-button-addLiteratures{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.infisible{
+    display: none;
+}

@@ -1,0 +1,123 @@
+.flex-home{
+    display: flex;
+    justify-content: space-evenly;
+}
+.subject-home{
+    width: 614px;
+    height: 183px;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 82.49%;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 60px;
+}
+.fill-subject-home{
+    width: 480px;
+    height: 107px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    text-align: left;
+}
+.sign-ins{
+    width: 211px;
+    height: 50px;
+    background: #AF2E1C;
+    border-radius: 5px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 15px;
+}
+.registers{
+    width: 211px;
+    height: 50px;
+    background: #F9F9F9;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 15px;
+}
+.flex-button{
+    display: flex;
+    text-align: left;
+}
+.fill-sign{ 
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.fill-register{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+.modal-signIn{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.input-modal-signIn{
+    width: 400px;
+    height: 50px;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 30px;
+}
+.button-modal-signIn{
+    width: 400px;
+    height: 50px;
+    background: #AF2E1C;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.fill-modal-signIn{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.dont{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.here{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #AF2E1C;
+    cursor: pointer;
+}

@@ -1,24 +1,35 @@
 import logo from './logo.svg';
 import './App.css';
+import Auth from "../src/pages/auth"
+import Search from "../src/pages/search"
+import Profile from "../src/pages/profile"
+import Edit from "../src/pages/edit"
+import FillSearch from "../src/pages/fillSearch"
+import Add from "../src/pages/addLiteratures"
+import Collections from "../src/pages/collections"
+import Detail from "../src/pages/detailLiterature"
+import Admin from "../src/pages/admin"
+import {BrowserRouter,Route,Switch,Link} from "react-router-dom";
+import PrivateRoute from "./privateRoute"
+import AuthContext from "./cartContext";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <AuthContext>
+        <Switch> 
+          <Route exact path="/auth" component={Auth}/>
+          <PrivateRoute exact path="/" component={Search}/>
+          <PrivateRoute exact path="/search" component={FillSearch}/>
+          <PrivateRoute exact path={`/detail/:id`} component={Detail}/>
+          <PrivateRoute exact path={`/edit/:id`} component={Edit}/>
+          <PrivateRoute exact path="/profile" component={Profile}/>
+          <PrivateRoute exact path="/collections" component={Collections}/>
+          <PrivateRoute exact path="/Add-Literature" component={Add}/>
+          <PrivateRoute exact path="/admin" component={Admin}/>
+        </Switch>
+      </AuthContext>
+    </BrowserRouter>
   );
 }
 

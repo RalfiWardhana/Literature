@@ -1,0 +1,96 @@
+.flex-detail{
+    display: flex;
+}
+.photo-pdf{
+    border: 0px solid white;
+    width: 30%;
+    padding: 40px 0px;
+    text-align: left;
+    margin-top: 25px;
+}
+.fill-detail{
+    border: 0px solid white;
+    width:40%;
+    padding: 30px;
+    text-align: left;
+}
+.add-collec{
+    border: 0px solid white;
+    width: 15%;
+    padding: 30px;
+}
+.title-detail-literature{
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;   
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+.name-detail-literature{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #929292;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.fills-detail-literature{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.name-detail-literature-two{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #929292;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.isbn{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    color: #AF2E1C;
+}
+.button-download-detail{
+    width: 144px;
+    height: 50px;
+    background: #AF2E1C;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 15px;
+}
+.fill-download{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.button-addCollection-detail{
+    width: 200px;
+    height: 50px;
+    background: #AF2E1C;
+    border-radius: 5px;
+    margin-left: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+    padding-top: 15px;
+}
+.hiddenn{
+    display: none;
+}
